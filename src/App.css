@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Add a background color */
+}
+
+.card-container {
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.card-container:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.card-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  padding-top: 12px;
+}
+
+.tooltip {
+  transition: color 0.3s ease-in-out; /* Add transition for tooltip color */
+}
+
+.tooltip:hover {
+  color: #ff4081; /* Change tooltip color on hover */
+}
